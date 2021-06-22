@@ -1,7 +1,5 @@
 {
-    "name": "nfephp-org/sped-sintegra",
-    "type": "library",
-    "version": "0.0.1",
+    "name": "carlosguttemberg/spedsintegra",
     "description": "API para geração dos arquivos para Sintegra",
     "keywords": ["sintegra", "nfephp"],
     "homepage": "https://github.com/nfephp-org/sped-sintegra",
