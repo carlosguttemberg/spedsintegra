@@ -80,7 +80,7 @@ class Z50 extends Element implements ElementInterface
         ],
         'CFOP' => [
             'type' => 'numeric',
-            'regex' => "^[1,2,3,5,6,7]{1}[0-9]{3}$",
+            'regex' => '^(\d{4})$',
             'required' => true,
             'info' => 'Código Fiscal de Operação e Prestação',
             'format' => '',
