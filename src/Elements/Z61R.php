@@ -91,7 +91,6 @@ class Z61R extends Element implements ElementInterface
     public function __construct(\stdClass $std)
     {
         parent::__construct(self::REGISTRO);
-        $std->MESTRE = 'R';
         $this->std = $this->standarize($std);
     }
 }
