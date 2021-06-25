@@ -15,9 +15,16 @@ use \stdClass;
 class Z61R extends Element implements ElementInterface
 {
     const REGISTRO = '61';
-    protected $subtipo = 'R';
 
     protected $parameters = [
+        'MESTRE' => [
+            'type' => 'string',
+            'regex' => '^.{1}$',
+            'required' => true,
+            'info' => 'Mestre/Analítico/Resumo',
+            'format' => '',
+            'length' => 1
+        ],
         'PERIODO_EMISSAO' => [
             'type' => 'string',
             'regex' => '^(0?[1-9]|1[012])(2[0-9]{3})$',
@@ -83,6 +90,7 @@ class Z61R extends Element implements ElementInterface
     public function __construct(\stdClass $std)
     {
         parent::__construct(self::REGISTRO);
+        $std->MESTRE = 'R';
         $this->std = $this->standarize($std);
     }
 }
