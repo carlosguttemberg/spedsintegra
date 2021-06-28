@@ -63,7 +63,7 @@ class Z10 extends Element implements ElementInterface
         ],
         'DT_INI' => [
             'type' => 'string',
-            'regex' => '^(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))(0[1-9]|1[0-2])([12]\d{3})$',
+            'regex' => '^(2[0-9]{3})(0?[1-9]|1[012])(0?[1-9]|[12][0-9]|3[01])$',
             'required' => true,
             'info' => 'Data inicial das informações contidas no arquivo.',
             'format' => '',
@@ -71,7 +71,7 @@ class Z10 extends Element implements ElementInterface
         ],
         'DT_FIM' => [
             'type' => 'string',
-            'regex' => '^(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))(0[1-9]|1[0-2])([12]\d{3})$',
+            'regex' => '^(2[0-9]{3})(0?[1-9]|1[012])(0?[1-9]|[12][0-9]|3[01])$',
             'required' => true,
             'info' => 'Data final das informações contidas no arquivo.',
             'format' => '',
