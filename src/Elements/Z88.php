@@ -16,7 +16,7 @@ class Z88 extends Element implements ElementInterface
 
     protected $parameters = [
         'TIPO' => [
-            'type' => 'numeric',
+            'type' => 'string',
             'regex' => '^.{1,3}$',
             'required' => true,
             'info' => 'Tipo do registro 88',
