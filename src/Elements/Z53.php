@@ -33,7 +33,7 @@ class Z53 extends Element implements ElementInterface
         ],
         'IE' => [
             'type' => 'string',
-            'regex' => '^[0-9]{2,14}$|^ISENTO$',
+            'regex' => '^ISENTO|[0-9]{2,14}$',
             'required' => false,
             'info' => 'Inscrição estadual do remetente nas entradas e do destinatário nas saídas',
             'format' => '',
