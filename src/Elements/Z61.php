@@ -17,7 +17,7 @@ class Z61 extends Element implements ElementInterface
     protected $parameters = [
         'BRANCOS_1' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '',
             'required' => false,
             'info' => 'Brancos',
             'format' => 'empty',
@@ -25,7 +25,7 @@ class Z61 extends Element implements ElementInterface
         ],
         'BRANCOS_2' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '',
             'required' => false,
             'info' => 'Brancos',
             'format' => 'empty',
@@ -129,7 +129,7 @@ class Z61 extends Element implements ElementInterface
         ],
         'BRANCOS_3' => [
             'type' => 'string',
-            'regex' => '^[0-9]{1}$',
+            'regex' => '',
             'required' => false,
             'info' => 'Brancos',
             'format' => 'empty',
