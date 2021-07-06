@@ -75,7 +75,7 @@ class Z61R extends Element implements ElementInterface
         ],
         'BRANCOS' => [
             'type' => 'string',
-            'regex' => '^[0-9]{1}$',
+            'regex' => '',
             'required' => false,
             'info' => 'Brancos',
             'format' => 'empty',
